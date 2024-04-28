@@ -4,70 +4,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>블렌디드 위스키 목록</title>
+    <link rel="stylesheet" href="style2.css" />
   </head>
   <body>
     <header>
       <a href="index.html">
-        <img src="images/logo.jpg" height="100px" alt="로고" />
+        <img src="images/logo.jpg" alt="로고" />
       </a>
     </header>
     <div>
       <h1>블렌디드 위스키 목록</h1>
-      <table border="1">
-        <thead>
-          <tr>
-            <th>사진</th>
-            <th>이름</th>
-            <th>특징</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              <img
-                src="images/blendedWhiskey1.jpg"
-                alt="로얄살루트21"
-                height="200px"
-              />
-            </td>
-            <td>로얄살루트21</td>
-            <td>일본에서 삼</td>
-          </tr>
-          <tr>
-            <td>
-              <img
-                src="images/blendedWhiskey2.jpg"
-                alt="조니워커 블루라벨"
-                height="200px"
-              />
-            </td>
-            <td>조니워커 블루라벨</td>
-            <td>맛있음</td>
-          </tr>
-          <tr>
-            <td>
-              <img
-                src="images/blendedWhiskey3.jpg"
-                alt="조니워커 골드라벨"
-                height="200px"
-              />
-            </td>
-            <td>조니워커 골드라벨</td>
-            <td>달달함</td>
-          </tr>
-          <tr>
-            <td>
-              <img
-                src="images/blendedWhiskey4.jpg"
-                alt="발렌타인12 퓨어몰트"
-                height="200px"
-              />
-            </td>
-            <td>발렌타인12 퓨어몰트</td>
-            <td>생각보다 맛있음</td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="whiskey-grid">
+        <!-- Whiskey Card 1 -->
+        <div class="whiskey-card">
+          <div class="whiskey-card-image-container">
+            <img src="images/blendedWhiskey1.jpg" alt="로얄살루트21" />
+          </div>
+          <div class="whiskey-card-content">
+            <h2 class="whiskey-name">로얄살루트21</h2>
+            <p class="whiskey-description">일본에서 삼</p>
+          </div>
+        </div>
+        <!-- Whiskey Card 2 -->
+        <div class="whiskey-card">
+          <div class="whiskey-card-image-container">
+            <img src="images/blendedWhiskey2.jpg" alt="조니워커 블루라벨" />
+          </div>
+          <div class="whiskey-card-content">
+            <h2 class="whiskey-name">조니워커 블루라벨</h2>
+            <p class="whiskey-description">맛있음</p>
+          </div>
+        </div>
+        <!-- Whiskey Card 3 -->
+        <div class="whiskey-card">
+          <div class="whiskey-card-image-container">
+            <img src="images/blendedWhiskey3.jpg" alt="조니워커 골드라벨" />
+          </div>
+          <div class="whiskey-card-content">
+            <h2 class="whiskey-name">조니워커 골드라벨</h2>
+            <p class="whiskey-description">달달함</p>
+          </div>
+        </div>
+        <!-- Whiskey Card 4 -->
+        <div class="whiskey-card">
+          <div class="whiskey-card-image-container">
+            <img src="images/blendedWhiskey4.jpg" alt="발렌타인12 퓨어몰트" />
+          </div>
+          <div class="whiskey-card-content">
+            <h2 class="whiskey-name">발렌타인12 퓨어몰트</h2>
+            <p class="whiskey-description">생각보다 맛있음</p>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
